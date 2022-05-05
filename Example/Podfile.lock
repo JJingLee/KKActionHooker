@@ -1,0 +1,31 @@
+PODS:
+  - KKActionHooker (0.1.0):
+    - PromiseKit
+  - PromiseKit (6.16.3):
+    - PromiseKit/CorePromise (= 6.16.3)
+    - PromiseKit/Foundation (= 6.16.3)
+    - PromiseKit/UIKit (= 6.16.3)
+  - PromiseKit/CorePromise (6.16.3)
+  - PromiseKit/Foundation (6.16.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.16.3):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - KKActionHooker (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  KKActionHooker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKActionHooker: 43106b48fb2d640d7bf7625598c2153f9474ad32
+  PromiseKit: ed0e2a8e3f3cd59d5d98ca0a6de481a2c5c59c0b
+
+PODFILE CHECKSUM: 49a54431f36756addd64bf75e758d41812b238ba
+
+COCOAPODS: 1.10.2

@@ -56,8 +56,12 @@ example code:
 ```
 
 ```Swift
-  //Framework developer User, see in  Example for KKActionHooker/DummyViewBuilder
-  private func sendATestError() {
+    //Framework developer User, see in  Example for KKActionHooker/DummyViewBuilder
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        hookManager.asHooks.doAction(name: viewBuilderHooks.viewLoad)
+    }
+    private func sendATestError() {
         let testErr = KKViewBuilderError(name: DummyViewBuilderError.DVB_test_001,
                                          hashCode: DummyViewBuilderError.DVB_test_001.hashValue)
         hookManager.asHooks.sendError(err:testErr)

@@ -6,14 +6,15 @@
 [![Platform](https://img.shields.io/cocoapods/p/KKActionHooker.svg?style=flat)](https://cocoapods.org/pods/KKActionHooker)
 
 ## Concept
-To develope a strictly framework, to standarlize actions and flows is one of the most import to get to the way on commodification.
+Developing a strictly framework, standarlize actions and flows is one of the most important thing to get to the way on commodification.
 KKActionHook is the solution to scalfold among framework users and framework developers to have a standard communication standard.
 
-|   framework Users   |
+|   Roles in SDK  |
 |------------------------
-|vvv need to listen to lifeCycle & actions
-|^^^ need to expose lifeCycle & abilities
-|   framework Developer   |
+|   **framework Users**   |
+| *`HookManager.asHooker`(enable user to listen to lifeCycle & actions)*
+| *`HookManager.asHook`(enable framework to expose lifeCycle & abilities)*
+|   **framework Developer**   |
 
 
 ## Example

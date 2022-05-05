@@ -74,11 +74,11 @@ example code:
 
 ## Installation
 
-KKActionHooker is available through [CocoaPods](https://cocoapods.org). To install
+KKActionHooker is available through assigning the git repo. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KKActionHooker'
+pod 'KKActionHooker', :git => 'https://github.com/daniellee88888/KKActionHooker.git', :branch => 'main'
 ```
 
 ## Author
